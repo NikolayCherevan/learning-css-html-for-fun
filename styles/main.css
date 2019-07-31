@@ -1,0 +1,138 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-description {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+.header-title {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.menu {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.menu>li {
+    border-radius: 3px;
+    margin: 0 5px;
+    background-color: aqua;
+    padding: 0 10px;
+}
+a:hover {
+    color: aliceblue;
+    transition: all 1s ease-out;
+}
+a {
+ text-decoration: none;
+}
+.menu>li:hover {
+    background-color: black;
+    color: white;
+}
+.border-blue {
+    background-color: bisque;
+    display: flex;
+    border:solid 1px blue;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+.child-element {
+    background-color: aqua;
+    margin: 10px;
+    text-align: center;
+    border: solid 1px red;
+    border-radius: 3px;
+}
+.main-table {
+    margin-top: 50px;
+    color:white;
+    width: 300px;
+    height: 300px;
+    border: solid 2px gray;
+}
+.main-table:hover {
+    width: 100%;
+    transition: all 3s ease-out;
+}
+tr {
+    text-align: center;
+}
+tr:nth-child(2n) {
+    background-color: lightgray;
+}
+tr:nth-child(2n+1){
+    background-color: darkgrey;
+}
+tr:first-child {
+    background-color: black;
+}
+
+tr:nth-child(2n):hover {
+    background-color: green;
+    cursor: move;
+    transition: all 1s ease-out;
+}
+tr:nth-child(2n+1):hover{
+    background-color: red;
+    cursor: move;
+    transition: all 1s ease-in-out;
+}
+tr:first-child:hover {
+    background-color: black;
+}
+td {
+    width: 100px;
+}
+form {
+    width: 400px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+form>input {
+
+    border-radius: 4px;
+    background-color: bisque;
+    border: none;
+    outline: none;
+    height: 15px;
+    padding: 0 10px;
+    margin: 5px;
+}
+.button-input {
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.fa-camera-retro:before {
+    font-size: 40px;
+}
+.fa-ul>li>i {
+    margin: 5px 30px;
+    color: blue;
+    font-size: 40px;
+}
+
+.fa-ul>li>i {
+    transition: all 1s ease-in-out;
+}
+.fa-ul>li>i:hover{
+    cursor: pointer;
+    margin: 5px 30px;
+    color: red;
+    font-size: 40px;
+    transition: all 1s ease-in-out;
+    transform: rotate(-45deg);
+} 
