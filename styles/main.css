@@ -11,6 +11,7 @@ html {
     margin: 0 auto;
 }
 .header-title {
+    color: aliceblue;
     margin-top: -100px;
     text-align: center;
     text-transform: uppercase;
@@ -119,6 +120,26 @@ td {
     transition: all 1s ease-in-out;
     transform: rotate(-45deg);
 } 
+body {
+    background-image: url(../image/M2FQtImGf7k.jpg)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 600px) {
 .border-blue {
     display: flex;
